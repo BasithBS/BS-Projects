@@ -1,0 +1,339 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navibar start */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    display: inline;
+    padding-left: 50px;
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: smaller;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+li a:hover {
+    color: rgb(118, 117, 117);
+}
+
+/* Navibar End */
+
+/* content-Home Start */
+.content-Home{
+    width: 100%;
+    height: 115vh;
+    background-image: linear-gradient(rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.2), rgba(0, 0, 0,0)), url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content-Home h1{
+    color: aliceblue;
+    padding-left: 600px;  
+}
+.content-Home p
+{
+    color: aliceblue;
+    padding-left: 600px;  
+}
+
+.fa-gears{
+    padding-top: 110px;
+    padding-left: 650px;
+    font-size: 100px;
+    color: aliceblue;
+    
+}
+.content-Home h1{
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content-Home p{
+    font-size: 22px;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.fa-brands{
+    padding-left: 25px;
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+}
+.content-Home table{
+margin: auto;
+margin-top: 65vh;
+}
+/* Content1_Home End */
+
+/* Content1 content_service Start */
+.content-service{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(15, 15, 15);
+    color: azure;
+    padding-top:130px ;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.title h1
+{
+    font-size: 35px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.title hr{
+    width: 40px;
+    height: 2px;
+    background-color: azure;
+    margin: auto;
+    margin-top: 20px;
+}
+.card1{
+    width: 250px;
+    height: 50vh;
+    text-align: center;
+    color: azure;
+
+}
+.fa-screwdriver-wrench, .fa-fire{
+    font-size: 60px;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 50%;
+}
+.card1{
+    text-align: center;
+}
+.card1 h2{
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.card1 p{
+    padding: 0px 40px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.content-service table{
+    margin: auto;
+    padding-top: 20px;
+}
+/* Content1 content_service End */
+
+/* Content1 content-ourwork Start */
+.content-ourwork{
+    width: 100%;
+    height: 110vh;  
+}
+.title1{
+    width: 100%;
+    height:fit-content;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title1 h1
+{
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.title1 hr{
+    width: 40px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+}
+.title1 p
+{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.grid-container
+{
+    width:90%;
+    height: 600px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: auto;
+    margin-top: 60px;
+}
+.grid-container div
+{
+    background-color: blueviolet;
+}
+.box1
+{
+    background-image: url("https://images.pexels.com/photos/9845145/pexels-photo-9845145.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;background-position: center;
+}
+.box2
+{
+    background-image: url("https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;background-size: cover;  
+}
+.box3
+{
+    background-image: url("https://images.pexels.com/photos/5484508/pexels-photo-5484508.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;background-size: cover;
+}
+.box4
+{
+    background-image: url("https://images.pexels.com/photos/17016814/pexels-photo-17016814/free-photo-of-white-dodge-challenger.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-position: center;background-size: cover;
+}
+.box5
+{
+    background-image: url("https://images.pexels.com/photos/12644281/pexels-photo-12644281.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-position: center;background-size: cover;
+}
+.box6
+{
+    background-image: url("https://images.pexels.com/photos/9069384/pexels-photo-9069384.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;background-size: cover;
+}
+/* Content1 content-ourwork End */
+
+/* Content1 content-aboutus Start */
+.content-aboutus{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/4194858/pexels-photo-4194858.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+    background-repeat: no-repeat;background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    width: 45%;
+    height:400px;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    box-shadow: 8px 8px 10px;   
+}
+.title2 h1
+{
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.title2 hr{
+    width: 40px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+}
+.title2 p
+{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 40px 100px;
+}
+/* Content1 content-aboutus End */
+
+/* Content1 content-empty Start */
+.content-empty{
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg?auto=compress&cs=tinysrgb&w=600https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+    background-attachment: fixed;
+    
+}
+/* Content1 content-empty End */
+
+/* Content1 content-findus Start */
+.content-findus{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4194858/pexels-photo-4194858.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+    background-repeat: no-repeat;background-size: cover;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+img{
+width: 300px;
+height: 300px;
+margin-top: 50px;
+}
+.title3{
+    width: 650px;
+    height:90vh;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    box-shadow: 8px 8px 10px;  
+}
+.title3 h1
+{
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.title3 hr{
+    width: 40px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+}
+.content11{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;    
+}
+.content11 .content1{
+width: 50%;
+height: 80%;
+background-color: rgb(66, 167, 133);
+}
+.content11 .content2{
+    width: 50%;
+    height: 80%;
+    background-color: bisque;
+    
+}
+/* Content1 content-findus End */
+
+

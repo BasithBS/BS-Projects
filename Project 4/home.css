@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    
+    background-image: url("https://images.pexels.com/photos/6702542/pexels-photo-6702542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.home{
+    height: 120vh;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.bsds{
+    font-size: 90px;
+    font-weight: 500;
+}
+.bsds1{
+   font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.about-us{
+    background-image: url("https://images.pexels.com/photos/6702564/pexels-photo-6702564.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.about{
+    text-align: center;
+}
+.our-courses{
+    background-image: url("https://i.pinimg.com/736x/77/84/36/77843609952f167bbf7393b8f303cd1b.jpg");
+    
+}
+
+.c1{
+    background-image: url("https://static.wixstatic.com/media/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_400,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c2{
+    background-image: url("https://static.wixstatic.com/media/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg/v1/fill/w_401,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c3{
+    background-image: url("https://static.wixstatic.com/media/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg/v1/fill/w_401,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.corey-vega{
+    height: 60vh;
+}
+.turtle{
+    background-image: url("https://images.pexels.com/photos/13010772/pexels-photo-13010772.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#map {
+    height: 100%;
+  }
+  
+  .ggg{
+    height: 60vh;
+  }
+  
