@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Generator</title>
+    <link rel="stylesheet" href="billg.css">
+</head>
+
+<body>
+    <div class="billing">
+        <table cellspacing="5px">
+            <tr>
+                <td class="items">Bill No</td>
+                <td><input type="text" name="" id="bill-no"></td>
+            </tr>
+            <tr>
+                <td class="items"> Customer Name </td>
+                <td><input type="text" id="customer-name" placeholder="Enter Customer Name"></td>
+            </tr>
+            <tr>
+                <td class="items">Products</td>
+                <td>
+                    <input list="browsers" name="browser" placeholder="Search Product" id="fruits-list">
+                    <datalist id="browsers">
+                        <option value="Apple">
+                        <option value="Avacado">
+                        <option value="Banana">
+                        <option value="Biscut">
+                        <option value="Ball">
+                        <option value="Kiwi">
+                        <option value="Knife">
+                        <option value="Olivoil">
+                        <option value="Oil">
+                        <option value="Orange">
+                        <option value="Grape">
+                        <option value="Gum">
+                        <option value="Glue">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td class="items">Quantity</td>
+                <td><input type="text" id="quantity" placeholder="NOS"></td>
+            </tr>
+            <tr>
+                <td class="items">Per Price</td>
+                <td><input type="text" id="per-price"></td>
+            </tr>
+            <tr>
+                <td><button id="new">New</button></td>
+                <td><button id="finish">Finish</button></td>
+            </tr>
+            <tr>
+                <td class="items">Total Amount</td>
+                <td><input type="text" id="total-amount"></td>
+            </tr>
+            <tr>
+                <td class="items"> Discount% </td>
+                <td><input type="text" id="discount"></td>
+            </tr>
+            <tr>
+                <td class="items">GST+</td>
+                <td><input type="text" id="gst"></td>
+            </tr>
+            <tr>
+                <td class="items">Final Amount</td>
+                <td><input type="text" id="final-amount"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="bill-gernerate">Generate Bill</button></td>
+                
+            </tr>
+        </table>
+    </div>
+    <div class="billing-list"></div>
+
+    <script src="billg.js"></script>
+</body>
+
+</html>
